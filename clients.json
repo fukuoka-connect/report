@@ -14,5 +14,14 @@
     "line_user_id": "ENV:LINE_USER_ID_SOFUREN",
     "active": true,
     "profile": "業種：焼きそば専用ふりかけ 通販ランディングページ\n商品：想夫恋オリジナルスパイス ¥800\n特徴：花椒・韓国唐辛子・柚子陳皮など本格スパイス\nターゲット：想夫恋ファン・焼きそば好き・ギフト需要\nCTA：商品詳細ページへの誘導・購入促進"
+  },
+  {
+    "name": "ゴトウケンタロウ",
+    "line_user_id": "U535615661d045428d8120abfb933d6cb",
+    "ga4_id": "",
+    "site_url": "",
+    "active": false,
+    "profile": "",
+    "memo": "友だち追加から自動登録 / GA4・SC設定待ち"
   }
 ]
