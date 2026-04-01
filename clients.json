@@ -1,0 +1,18 @@
+[
+  {
+    "name": "想夫恋 宇美店",
+    "ga4_id": "529552579",
+    "site_url": "https://fukuoka-connect.github.io/sofuren-umi/",
+    "line_user_id": "ENV:LINE_USER_ID_SOFUREN",
+    "active": true,
+    "profile": "業種：日田焼きそば専門店（テイクアウト専門）\n場所：福岡県粕屋郡宇美町\n営業時間：11:00-15:00 / 17:30-19:30\n定休日：火曜日\n客単価：約1,500円\n強み：パリパリ食感・創業39年の老舗・口コミNo.1\nターゲット：宇美町の主婦・ファミリー層・地元リピーター\n注文方法：電話のみ 092-933-3991\nSNS：Instagram @goto.yakisoba\nLINE公式：友だち436人\n二代目オーナー：後藤堅太郎\n人気メニュー：焼きそば並¥1,050・大盛¥1,350・揚げ餃子¥440\nオリジナル：焼きそば専用ふりかけ¥800"
+  },
+  {
+    "name": "想夫恋 ふりかけLP",
+    "ga4_id": "529527426",
+    "site_url": "https://sofurenumi-glitch.github.io/sofuren-furikake/",
+    "line_user_id": "ENV:LINE_USER_ID_SOFUREN",
+    "active": true,
+    "profile": "業種：焼きそば専用ふりかけ 通販ランディングページ\n商品：想夫恋オリジナルスパイス ¥800\n特徴：花椒・韓国唐辛子・柚子陳皮など本格スパイス\nターゲット：想夫恋ファン・焼きそば好き・ギフト需要\nCTA：商品詳細ページへの誘導・購入促進"
+  }
+]

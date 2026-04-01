@@ -1,0 +1,30 @@
+name: 日次アクセス解析レポート
+
+on:
+  schedule:
+    - cron: '30 22 * * *'   # 毎日 JST 07:30
+  workflow_dispatch:          # 手動実行も可能
+
+jobs:
+  send-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Python 3.11 セットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 依存ライブラリをインストール
+        run: pip install -r requirements.txt
+
+      - name: 日次レポートを実行
+        env:
+          GCP_SERVICE_ACCOUNT_KEY:   ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          # 既存クライアントのLINE USER ID（ENV:で参照）
+          LINE_USER_ID_SOFUREN:      ${{ secrets.LINE_USER_ID_SOFUREN }}
+        run: python daily_report.py

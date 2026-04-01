@@ -1,0 +1,7 @@
+anthropic
+google-analytics-data
+google-api-python-client
+google-auth
+requests
+flask
+gunicorn
