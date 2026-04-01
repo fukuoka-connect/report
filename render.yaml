@@ -9,7 +9,7 @@ services:
         sync: false
       - key: LINE_CHANNEL_ACCESS_TOKEN
         sync: false
-      - key: GITHUB_TOKEN
+      - key: GH_TOKEN_FC
         sync: false
       - key: GITHUB_REPO
         value: kentaro/fukuoka-connect-report
