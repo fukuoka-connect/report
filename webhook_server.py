@@ -18,7 +18,7 @@ app = Flask(__name__)
 # ── 環境変数 ──────────────────────────────────
 LINE_CHANNEL_SECRET  = os.environ["LINE_CHANNEL_SECRET"]
 LINE_TOKEN           = os.environ["LINE_CHANNEL_ACCESS_TOKEN"]
-GITHUB_TOKEN         = os.environ["GITHUB_TOKEN"]          # repo書き込み権限付き
+GITHUB_TOKEN         = os.environ["GH_TOKEN_FC"]           # repo書き込み権限付き
 GITHUB_REPO          = os.environ["GITHUB_REPO"]           # 例: kentaro/fukuoka-connect-report
 GITHUB_BRANCH        = os.environ.get("GITHUB_BRANCH", "main")
 CLIENTS_JSON_PATH    = "clients.json"
